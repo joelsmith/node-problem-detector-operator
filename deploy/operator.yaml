@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: node-problem-detector-operator
-          image: openshift/node-problem-detector-operator:v0.0.1
+          image: quay.io/joelsmith/node-problem-detector-operator:v0.0.1
           ports:
           - containerPort: 60000
             name: metrics

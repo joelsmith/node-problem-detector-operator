@@ -199,7 +199,7 @@ func newNPDDS(cr *v1alpha1.NodeProblemDetector) *appsv1.DaemonSet {
 									},
 								},
 							},
-							Image:           "openshift/ose-node-problem-detector:v3.12",
+							Image:           "quay.io/joelsmith/node-problem-detector",
 							ImagePullPolicy: corev1.PullPolicy(cr.Spec.ImagePullPolicy),
 							Name:            "node-problem-detector",
 							Resources:       corev1.ResourceRequirements{},
