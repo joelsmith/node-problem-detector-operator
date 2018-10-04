@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: node-problem-detector-operator
-  namespace: openshift-node-problem-detector
+  namespace: openshift-node-problem-detector-2
 spec:
   replicas: 1
   selector:
